@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "920306076997",
+    "project_id": "app-stoy",
+    "storage_bucket": "app-stoy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920306076997:android:07613dd89a7ce08d4b822c",
+        "android_client_info": {
+          "package_name": "com.example.app_stoy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920306076997-ab5suqgg67la8v1j39nick11vn1hgv1k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.app_stoy",
+            "certificate_hash": "9c61884aa96a6737f352e56826e910d9d948d7d2"
+          }
+        },
+        {
+          "client_id": "920306076997-4vvd3ioj5hrojqvkgmk4cvcmvlp5k8df.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiEotfQdLjtGMLEIBaskOX5rLrIL2fzgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920306076997-4vvd3ioj5hrojqvkgmk4cvcmvlp5k8df.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
