@@ -3,14 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/App_Stoy/app/src/main/res/drawable/bgr_product.xml" value="0.1805" />
+        <entry key="..\:/App_Stoy/app/src/main/res/drawable/bgr_view.xml" value="0.1805" />
+        <entry key="..\:/App_Stoy/app/src/main/res/drawable/recieverchatdrawble.xml" value="0.1805" />
         <entry key="..\:/App_Stoy/app/src/main/res/layout/activity_login.xml" value="0.18" />
         <entry key="..\:/App_Stoy/app/src/main/res/layout/activity_main.xml" value="0.2796875" />
+        <entry key="..\:/App_Stoy/app/src/main/res/layout/activity_set_profile.xml" value="0.2234375" />
+        <entry key="..\:/App_Stoy/app/src/main/res/layout/activity_specificchat.xml" value="0.2234375" />
         <entry key="..\:/App_Stoy/app/src/main/res/layout/activity_verity_otpactivity.xml" value="0.2015625" />
+        <entry key="..\:/App_Stoy/app/src/main/res/layout/chatviewlayout.xml" value="0.3864864864864865" />
+        <entry key="..\:/App_Stoy/app/src/main/res/layout/fragment_chat.xml" value="0.2234375" />
         <entry key="..\:/App_Stoy/app/src/main/res/layout/fragment_favorite.xml" value="0.23385416666666667" />
         <entry key="..\:/App_Stoy/app/src/main/res/layout/fragment_home.xml" value="0.24791666666666667" />
         <entry key="..\:/App_Stoy/app/src/main/res/layout/fragment_notification.xml" value="0.24791666666666667" />
         <entry key="..\:/App_Stoy/app/src/main/res/layout/fragment_of_my.xml" value="0.26145833333333335" />
         <entry key="..\:/App_Stoy/app/src/main/res/layout/list_product.xml" value="0.26145833333333335" />
+        <entry key="..\:/App_Stoy/app/src/main/res/layout/recieverchatlayout.xml" value="0.2234375" />
+        <entry key="..\:/App_Stoy/app/src/main/res/layout/senderchatlayout.xml" value="0.2234375" />
+        <entry key="..\:/App_Stoy/app/src/main/res/menu/menu.xml" value="0.2234375" />
       </map>
     </option>
   </component>

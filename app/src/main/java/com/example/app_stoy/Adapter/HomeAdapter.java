@@ -8,28 +8,25 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.app_stoy.Model.Product;
 import com.example.app_stoy.R;
+
+import java.util.List;
 
 public class HomeAdapter extends BaseAdapter {
 
     private Context context;
     private LayoutInflater layoutInflater;
-    private String[] des;
-    private  int[] price;
-    private  int[] sold;
-    private  int[] image;
+    List<Product> products;
 
-    public HomeAdapter(Context c, int[] im, String[] d, int[] pr, int[] so) {
-        context = c;
-        this.des = d;
-        this.price = pr;
-        this.sold = so;
-        this.image = im;
+    public HomeAdapter(Context context, List<Product> products) {
+        this.context = context;
+        this.products = products;
     }
 
     @Override
     public int getCount() {
-        return des.length;
+        return products.size();
     }
 
     @Override
@@ -54,11 +51,11 @@ public class HomeAdapter extends BaseAdapter {
         TextView dess = convertView.findViewById(R.id.descibe);
         TextView pricee = convertView.findViewById(R.id.price);
         TextView soldd = convertView.findViewById(R.id.sold);
-
-        imageView.setImageResource(image[position]);
-        dess.setText(des[position]);
-        pricee.setText(String.valueOf(price[position]) + "đ");
-        soldd.setText("Đã bán: " + String.valueOf(sold[position]));
+        Product product = products.get(position);
+            dess.setText(product.getDescription());
+            pricee.setText(String.valueOf(product.getPrice()) + "đ");
+            soldd.setText("Đã bán: " + String.valueOf(product.getSole()));
+            imageView.setImageResource(R.drawable.image);
         return convertView;
     }
 }

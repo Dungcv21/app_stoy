@@ -17,10 +17,16 @@
             android:name=".VerityOTPActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".Fragment.Chat.setProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment.Chat.Specificchat"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

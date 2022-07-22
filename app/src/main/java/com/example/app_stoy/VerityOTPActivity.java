@@ -13,6 +13,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.app_stoy.Fragment.Chat.setProfile;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.FirebaseException;
@@ -76,7 +77,7 @@ public class VerityOTPActivity extends AppCompatActivity {
                                 public void onComplete(@NonNull Task<AuthResult> task) {
                                     progressbarOtp.setVisibility(View.INVISIBLE);
                                     if(task.isSuccessful()){
-                                        Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                                        Intent i = new Intent(getApplicationContext(), setProfile.class);
                                         i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                                         startActivity(i);
                                         finish();

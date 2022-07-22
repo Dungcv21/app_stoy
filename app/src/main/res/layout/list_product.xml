@@ -1,40 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:padding="20dp">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgr_view">
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="200dp"
+        android:layout_height="240dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bgr_product"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
     <ImageView
-        android:layout_width="150dp"
+        android:layout_width="match_parent"
         android:layout_height="150dp"
         android:id="@+id/image_product"
+        android:scaleType="centerCrop"
+        android:layout_margin="5dp"
         android:layout_gravity="center"/>
     <TextView
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
         android:textColor="@color/black"
-        android:text="mô tả"
+        android:text="mô tảllllllllllllllllllllllllllllllllllllllllllllllllll"
         android:id="@+id/descibe"
+        android:layout_marginHorizontal="5dp"
+        android:layout_gravity="center"
         android:maxLines="2"/>
     <LinearLayout
         android:layout_width="match_parent"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="5dp"
         android:layout_height="wrap_content">
-        <TextView
-            android:layout_width="80dp"
-            android:layout_height="wrap_content"
-            android:textColor="#FA0000"
-            android:text="1.500.000đ"
-            android:gravity="left"
-            android:id="@+id/price"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#FA0000"
+            android:text="150000000đ"
+            android:gravity="left"
+            android:id="@+id/price"/>
+        <TextView
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:text="Đã bán"
+            android:text="Đã bán: 1999"
             android:gravity="right"
-            android:layout_gravity="left"
+            android:textSize="12dp"
+            android:layout_gravity="center"
             android:id="@+id/sold"/>
     </LinearLayout>
 
-
-</LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
